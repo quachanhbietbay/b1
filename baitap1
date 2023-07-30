@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    
+</body>
+<script>
+
+ /// những số lớn hơn 6
+    var A = [1,5,7,9,12];
+    var B = []; // biến mảng 
+    for (var i = 0; i < 5; i++){
+        if (A[i]>6){
+            B.push(A[i]);
+        }
+    }
+    alert(B)
+    /// những số lớn hơn 7 
+    var Deptrai = [1,5,7,9,12];
+    var ThongMinh = [];
+    for (var i = 0; i < 5; i++){
+        if (Deptrai[i] > 7) {
+            ThongMinh.push(Deptrai[i]);
+        }
+    }
+    alert(ThongMinh);
+   /// tìm ra số lớn nhất
+   var dz = [1,5,7,9,12];
+   var solonnhat = dz[0];
+   for (var i = 0; i <=4; i += 1){
+    if (dz[i] > solonnhat){
+        solonnhat = dz[i];
+    }
+   }
+   alert(solonnhat)
+</script>
+</html>
